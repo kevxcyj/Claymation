@@ -6,6 +6,13 @@ Kevin Cyrus Jr. Kevin.Cyrus@atlasschool.com
 https://kevxcyj.github.io/Claymation/
 
 
+we are using bootstrap because WE LOVE working with BOOTSTRP
+Responsive UI across mobile, tablet, and desktop
+CSS Framework(s) (e.g. Bootstrap, Semantic UI, etc.)
+JavaScript framework(s)
+
+
+
 Drumming Boy Claymation Animation
 Description
 This is a web-based project showcasing a Claymation animation theme with a particular focus on the beloved "The Little Drummer Boy" television special. It features:
