@@ -1,0 +1,33 @@
+#drummer-boy {
+    animation: drum-animation 10s infinite alternate;
+  }
+  @keyframes drum-animation {
+    0% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    position: fixed;
+    background-color: #F5DEB3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+

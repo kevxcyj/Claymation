@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drumming Boy Animation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    #drummer-boy {
+      animation: drum-animation 10s infinite alternate;
+    }
+
+    #drummer {
+    animation: gentle-bounce 2s infinite ease-in-out;
+}
+
+@keyframes gentle-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* S` nowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+ 
+.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
+  </style>
+</head>
+
+
+
+<body class="bg-primary">
+
+
+  <!-------Navbar------->
+  <nav class="navbar navbar-expand-md py-5">
+    <div class="container align-items-end">
+
+
+    <!-----Title------->
+    <h1 class=" mb-0 fw-bolder text-white">Claymation and The Little Drummer Boy</h1>
+        <button 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+            Menu
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+
+        <!-------Nav buttons------->
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <a href="#" class="nav-link active fw-bolder text-white">
+                    Home
+                </a>
+              </li>
+            <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn btn-white dropdown-toggle bg-white" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-white bg-white">
+                    <li><a class="dropdown-item" href="#Detailed">Detailed Manipulation</a></li>
+                    <li><a class="dropdown-item" href="#DIY">Do it Yourself</a></li>
+                  </ul>
+                </li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+
+  <!---Snowflakes----->
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+      <div class="inner">❅</div>
+    </div>
+  </div>
+  
+
+  <!---Intro Section---->
+  <div class="text-center mt-5 rounded-3 border border-3 col-12 col-md-10 col-xl-8 offset-xl-2 offset-md-1 py-5 mb-5 bg-light">
+    <div class="row justify-content-center">
+      <div class="col-md-6 justify-content-center text-center">
+        <h3>Claymation, a type of stop-motion animation, originated with the invention of plasticine clay in the late 19th century, which allowed for easily molded and slow-drying clay figures that could be manipulated for animation; the term "claymation" itself was coined by animator Will Vinton in the 1970s.</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <!---Desc Section----->
+  <div class="text-center mt-5 rounded-3 border border-3 bg-primary col-12 col-md-10 col-xl-8 offset-xl-2 offset-md-1 py-5 text-black bg-light">
+  <div class="row g-4 justify-content-center">
+    <div class="col-md-6">
+        <h2>
+          The Little Drummer Boy is a stop motion television special produced by Rankin/Bass Productions, based on the song of the same name. It was first televised in Canada on December 19, 1968, on the CTV Television Network, followed four days later by its American nationwide telecast on NBC. A sequel was broadcast in 1976.Aaron, a Jewish boy living peacefully on a farm, loses his parents to bandits. Traumatized, he vows to hate humanity. Forced into a traveling circus, he initially rebels. However, witnessing the Magi's journey and their kindness, he begins to soften. After escaping with his animals, he joins the Magi in Bethlehem. Unable to offer a traditional gift, Aaron plays his drum for the newborn baby, a gesture that heals his lamb and restores his faith in humanity. 
+        </h2>
+    </div>
+    <div class="col-md-6">
+        <img src="assets/images/drummer-boy.png" id="drummer" class="img-fluid rounded-3 rounded border border-primary border-3" alt="Drummer Boy">
+    </div>
+</div>
+    </div>
+
+    <!---Renditions----->
+    <div class="text-center mt-5 rounded-3 border border-3 bg-primary col-12 col-md-10 col-xl-8 offset-xl-2 offset-md-1 py-5 text-black bg-light">
+      <h1 class="text-center fw-bolder">Fun Fact!</h1>
+      <h5 class="mb-5">The Little Drummer Boy (originally known as "Carol of the Drum") started as a popular Christmas song written by American composer Katherine Kennicott Davis in 1941.[ First recorded in 1951 by the Austrian Trapp Family, the song was further popularized by a 1958 recording by the Harry Simeone Chorale; the Simeone version was re-released successfully for several years, and the song has been recorded many times since.</h5>
+      <h1 class="text-center mb-4 fw-bolder"> Renditions of The Little Drummer Boy</h1>
+      <div class="container px-4">
+        <div id="multiCarousel" class="carousel slide position-relative">
+          <div class="carousel-inner">
+
+
+            <!-- First Set of Cards -->
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h3 class="card-title mb-4">Ray Conniff</h3>
+                      <img src="assets/images/Ray Conniff.webp" class="img-fluid rounded-3 mb-4 border border-3 border-black" alt="Ray">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h4 class="card-title mb-4">Bert Kaempfert</h4>
+                      <img src="assets/images/Bert.jpg" class="img-fluid rounded-3 mb-4 border border-3 border-black" alt="Bert">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h3 class="card-title mb-4">Frank Sinatra</h3>
+                      <img src="assets/images/FrankSinatra.jpg" class="img-fluid rounded-3 mb-4 border border-3 border-black" alt="Frank">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h4 class="card-title mb-4">Vince Guaraldi</h4>
+                      <img src="assets/images/Vince.jpeg" class="img-fluid rounded-3 border mb-4 border-3 border-black" alt="Vince">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Second Set of Cards -->
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h3 class="card-title mb-4">Stix Hooper</h3>
+                      <img src="assets/images/Stix.jpg" class="img-fluid rounded 3 mb-4 border border-3 border-black" alt="Stix">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Joan Jett and The Blackhearts</h5>
+                      <img src="assets/images/Joan.jpg" class="img-fluid rounded 3 mb-4 border border-3 border-black" alt="Joan">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h4 class="card-title mb-4 fw-bolder">Justin Beiber</h4>
+                      <img src="assets/images/Justin.webp" class="img-fluid rounded 3 mb-4 border border-3 border-black" alt="Justin">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body">
+                      <h4 class="card-title mb-4 fw-bolder">Pentatonix</h4>
+                      <img src="assets/images/Ptx.jpeg" class="img-fluid rounded 3 mb-4 border border-3 border-black" alt="PTX">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <!---Carosuel Buttons----->
+          <button class="carousel-control-prev" type="button" data-bs-target="#multiCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#multiCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+      <!---Stop Motion----->
+      <div class="text-center mt-5 rounded-3 border border-3 bg-primary col-12 col-md-10 col-xl-8 offset-xl-2 offset-md-1 py-5 mb-5 text-black bg-light" id="Detailed">
+        <h1 class="display-4 fw-bolder mb-4"> Detailed Manipulation</h1>
+        <img src="assets/images/bts-claymation.png" class="img-fluid rounded mt-3 border border-3 rounded-3" alt="Supersentai" width="900" height="900">
+        <div class="ssdesc mt-5 p-4 text-center">
+          <h2>Detailed Claymation Manipulation</h2>
+          <h5>Animators can manipulate individual parts of the clay figure, like facial expressions, limbs, or clothing, to create complex actions.</p>
+          <h5>Careful lighting is crucial to ensure consistent appearance across frames, and backgrounds may be created separately or incorporated into the clay scene.</p>
+          <h2>Key Points About Claymation</h2>
+          <ul>
+            <li><strong><h5>Time-Intensive:</strong> Due to the need to reposition the clay for each frame, creating claymation animation is very time-consuming.</li>
+            <li><strong><h5>Plasticine is Key:</strong> Most claymation uses plasticine because of its ability to hold its shape and not dry out quickly.</li>
+            <li><strong><h5>Famous Examples:</strong> Some well-known claymation characters include Gumby, Wallace and Gromit, and the California Raisins.</li>
+          </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Do it yourself section-->
+<div class="text-center text-black mt-5 rounded-3 border border-3 col-12 col-md-10 col-xl-8 offset-xl-2 offset-md-1 py-5 mb-5 bg-light" id="DIY">
+  <h1 class="display-4 fw-bolder mb-4">Do it yourself</h1>
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="assets/images/pexels-jennifer-murray-402778-1089069.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Clay Princess"
+    />
+
+    <img
+      src="assets/images/frames.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Frame by frame clay figure"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/makingclaymation.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Claymation Behing the Scenes"
+    />
+
+    <img
+      src="assets/images/clayrudolph.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Rudolph"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/images/recording.png"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Claymation Recording"
+    />
+
+    <img
+      src="assets/images/Ldb.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Drummer Boy"
+    />
+  </div>
+</div>
+<h2>How Can I Shoot My Own Stop Motion?</h2>
+<h5>Shooting your own stop motion has never been easier. All you need is a camera and a computer and you can get started right away. Set up your first shot in an area without wind or background movement—you want everything to be stable.</p>
+<p>Make sure all your pieces stand up on their own.</p>
+<p>If one of them falls over during filming, you're going to have to start shooting all over again.</p>
+<p>I recommend storyboarding everything. That way, you can plan for the edit. Check out these storyboards from Isle of Dogs to inspire you.</p>
+<p>It is very hard to do reshoots for stop motion. So make sure you know the syncs and transitions in the edit.</p>
+<p>Does it matter what kind of camera you use? No!</p>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
